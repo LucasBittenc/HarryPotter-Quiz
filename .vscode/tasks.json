@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "quiz/",
+			"problemMatcher": [],
+			"label": "npm: start - quiz",
+			"detail": "next start"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "quiz/",
+			"problemMatcher": [],
+			"label": "npm: dev - quiz",
+			"detail": "next",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "quiz/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - quiz",
+			"detail": "next build"
+		}
+	]
+}
